@@ -1189,7 +1189,7 @@ s .style_section_text_color {
 }
 
 .style_banner {
-    background-image: url("/asset/img/footer-bg.jpg");
+    background-image: url("asset/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
