@@ -338,6 +338,7 @@ nav {
 
 .menu-btn {
     display: none;
+    z-index: 10;
 }
 
 .arrow-icon {
@@ -3930,7 +3931,7 @@ iframe {
     }
 
     .mobile-menu {
-        height: 8dvh;
+        height: auto !important;
     }
 
     .mobile_hidden {
@@ -4371,6 +4372,7 @@ iframe {
         font-size: 14px;
         padding: 10px;
         border-radius: 6px;
+        z-index: 11;
     }
 
     .home .banner-content {
