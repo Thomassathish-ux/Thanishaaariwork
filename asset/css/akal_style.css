@@ -1206,6 +1206,15 @@ g .mobile_style_banner {
 
 .style_banner_content {
     color: var(--white);
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .btn-getmore {
@@ -3355,7 +3364,9 @@ iframe {
 
 @media (max-width: 1024px) {
     .style_banner_content {
-        bottom: 22vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .footer_popup {
@@ -4900,7 +4911,9 @@ iframe {
         }
 
         .style_banner_content {
-            bottom: 35vh;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
     }
