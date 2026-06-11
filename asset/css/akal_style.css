@@ -1114,7 +1114,7 @@ input[type="password"]::-ms-clear {
 
 .get_more_right_section {
     flex-direction: column;
-    width: 205px;
+    width: 275px;
     height: 641px;
 }
 
@@ -1189,7 +1189,7 @@ s .style_section_text_color {
 }
 
 .style_banner {
-    background: url("/asset/img/footer-bg.jpg");
+    background-image: url("/asset/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
